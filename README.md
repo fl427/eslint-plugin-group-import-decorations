@@ -39,8 +39,72 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
-## Supported Rules
-
-* Fill in provided rules here
+## Example .eslintrc.js
+```
+module.exports = {
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:group-import-decorations/recommended"
+    ],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        'import',
+        "group-import-decorations",
+    ],
+    "rules": {
+        '@typescript-eslint/no-var-requires': 0,
+        "group-import-decorations/group-import-decorations": [
+            2,
+            {
+                "groups": [
+                    {
+                        "name": "react",
+                        "rules": "^react"
+                    },
+                    {
+                        "name": "style",
+                        "rules": ".(css|scss|less|sass)$"
+                    },
+                    {
+                        "name": "layout",
+                        "rules": "@layout/"
+                    },
+                    {
+                        "name": "pages",
+                        "rules": "@pages/"
+                    },
+                    {
+                        "name": "components",
+                        "rules": "/components/"
+                    },
+                    {
+                        "name": "common",
+                        "rules": ".(png|jpg|jpeg|svg|gif|json)$"
+                    },
+                    {
+                        "name": "hooks",
+                        "rules": "/hooks/"
+                    },
+                ],
+            }
+        ],
+    }
+}
+```
 
 
