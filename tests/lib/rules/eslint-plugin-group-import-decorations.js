@@ -52,10 +52,6 @@
                 "rules": "@src/"
             },
             {
-                "name": "components",
-                "rules": "/components/"
-            },
-            {
                 "name": "common",
                 "rules": ".(png|jpg|jpeg|svg|gif|json)$"
             },
@@ -63,10 +59,6 @@
                 "name": "hooks",
                 "rules": "/hooks/"
             },
-            {
-                "name": "idl",
-                "rules": "tool-api"
-            }
           ],
         }]
       }
@@ -94,10 +86,6 @@
                 "rules": "@src/"
             },
             {
-                "name": "components",
-                "rules": "/components/"
-            },
-            {
                 "name": "common",
                 "rules": ".(png|jpg|jpeg|svg|gif|json)$"
             },
@@ -105,10 +93,6 @@
                 "name": "hooks",
                 "rules": "/hooks/"
             },
-            {
-                "name": "idl",
-                "rules": "tool-api"
-            }
         ],
       }]
      },
