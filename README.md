@@ -11,7 +11,7 @@ import Footer from "@layout/footer";
 import Header from "@layout/header";
 ```
 
-相关文档：[编写ESLint插件-浅析AST](https://fl427.github.io/2022/10/01/%E7%BC%96%E5%86%99ESLint%E6%8F%92%E4%BB%B6-%E6%8E%A2%E7%B4%A2AST%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/#/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)
+相关文档：[编写ESLint插件-浅析AST](https://fl427.github.io/2022/10/01/%E7%BC%96%E5%86%99ESLint%E6%8F%92%E4%BB%B6-%E6%B5%85%E6%9E%90AST/)
 
 ## Installation
 
