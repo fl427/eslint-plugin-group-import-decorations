@@ -38,29 +38,12 @@
       `, 
         errors: 1,
         options: [{
-          "groups": [
-            {
-                "name": "react",
-                "rules": "^react"
-            },
-            {
-                "name": "style",
-                "rules": ".(css|scss|less|sass)$"
-            },
-            {
-                "name": "src",
-                "rules": "@src/"
-            },
-            {
-                "name": "common",
-                "rules": ".(png|jpg|jpeg|svg|gif|json)$"
-            },
-            {
-                "name": "hooks",
-                "rules": "/hooks/"
-            },
-          ],
-        }]
+          "react": "^react",
+          "style": ".(css|scss|less|sass)$",
+          "src": "@src/",
+          "common": ".(png|jpg|jpeg|svg|gif|json)$",
+          "hooks":"/hooks/",
+        }],
       }
     ],
   invalid: [
@@ -72,29 +55,12 @@
       `,
       errors: 1,
       options: [{
-        "groups": [
-            {
-                "name": "react",
-                "rules": "^react"
-            },
-            {
-                "name": "style",
-                "rules": ".(css|scss|less|sass)$"
-            },
-            {
-                "name": "src",
-                "rules": "@src/"
-            },
-            {
-                "name": "common",
-                "rules": ".(png|jpg|jpeg|svg|gif|json)$"
-            },
-            {
-                "name": "hooks",
-                "rules": "/hooks/"
-            },
-        ],
-      }]
+        "react": "^react",
+        "style": ".(css|scss|less|sass)$",
+        "src": "@src/",
+        "common": ".(png|jpg|jpeg|svg|gif|json)$",
+        "hooks":"/hooks/",
+      }],
      },
    ],
  });
