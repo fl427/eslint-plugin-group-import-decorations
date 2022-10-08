@@ -82,36 +82,12 @@ module.exports = {
         "group-import-decorations/group-import-decorations": [
             2,
             {
-                "groups": [
-                    {
-                        "name": "react",
-                        "rules": "^react"
-                    },
-                    {
-                        "name": "style",
-                        "rules": ".(css|scss|less|sass)$"
-                    },
-                    {
-                        "name": "layout",
-                        "rules": "@layout/"
-                    },
-                    {
-                        "name": "pages",
-                        "rules": "@pages/"
-                    },
-                    {
-                        "name": "components",
-                        "rules": "/components/"
-                    },
-                    {
-                        "name": "common",
-                        "rules": ".(png|jpg|jpeg|svg|gif|json)$"
-                    },
-                    {
-                        "name": "hooks",
-                        "rules": "/hooks/"
-                    },
-                ],
+                "react": "^react",
+                "style": ".(css|scss|less|sass)$",
+                "layout": "@layout/",
+                "pages": "@pages/",
+                "common": ".(png|jpg|jpeg|svg|gif|json)$",
+                "hooks":"/hooks/",
             }
         ],
     }
