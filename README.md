@@ -11,8 +11,14 @@ import Footer from "@layout/footer";
 import Header from "@layout/header";
 ```
 
-相关文档：[编写ESLint插件-浅析AST](https://juejin.cn/post/7152185092754898951)
-代码仓库：https://github.com/fl427/eslint-plugin-group-import-decorations
+## 相关文档
+[编写ESLint插件-浅析AST](https://juejin.cn/post/7152185092754898951)
+
+## 代码仓库
+https://github.com/fl427/eslint-plugin-group-import-decorations
+
+## NPM
+https://www.npmjs.com/package/eslint-plugin-group-import-decorations
 
 ## Installation
 
