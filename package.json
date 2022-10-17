@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-group-import-decorations",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Group Import Decorations in React Projects",
   "keywords": [
     "eslint",

@@ -11,7 +11,8 @@ import Footer from "@layout/footer";
 import Header from "@layout/header";
 ```
 
-相关文档：[编写ESLint插件-浅析AST](https://fl427.github.io/2022/10/01/%E7%BC%96%E5%86%99ESLint%E6%8F%92%E4%BB%B6-%E6%B5%85%E6%9E%90AST/)
+相关文档：[编写ESLint插件-浅析AST](https://juejin.cn/post/7152185092754898951)
+代码仓库：https://github.com/fl427/eslint-plugin-group-import-decorations
 
 ## Installation
 
